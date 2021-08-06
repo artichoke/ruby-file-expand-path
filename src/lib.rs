@@ -9,5 +9,7 @@
 
 #![doc(html_root_url = "https://docs.rs/ruby-file-expand-path/0.1.0")]
 
+mod sys;
+
 #[cfg(test)]
 mod tests {}
