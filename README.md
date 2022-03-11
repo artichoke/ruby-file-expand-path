@@ -29,7 +29,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-ruby-file-expand-path = "0.1"
+ruby-file-expand-path = "0.1.0"
 ```
 
 Then normalize paths like:
