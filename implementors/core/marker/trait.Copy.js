@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["memchr"] = [{"text":"impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/marker/trait.Copy.html\" title=\"trait core::marker::Copy\">Copy</a> for <a class=\"enum\" href=\"memchr/memmem/enum.Prefilter.html\" title=\"enum memchr::memmem::Prefilter\">Prefilter</a>","synthetic":false,"types":["memchr::memmem::prefilter::Prefilter"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
