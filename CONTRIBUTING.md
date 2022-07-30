@@ -3,11 +3,16 @@
 👋 Hi and welcome to [Artichoke]. Thanks for taking the time to contribute!
 💪💎🙌
 
-Artichoke aspires to be a Ruby 2.6.3-compatible implementation of the Ruby
-programming language. [There is lots to do].
+Artichoke aspires to be a [recent MRI Ruby][mri-target]-compatible
+implementation of the Ruby programming language. [There is lots to do].
 
-ruby-file-expand-path is used to implement an obscure function in the [`Digest`
-package].
+[mri-target]:
+  https://github.com/artichoke/artichoke/blob/trunk/RUBYSPEC.md#mri-target
+
+ruby-file-expand-path is used to implement [`File::expand_path`] in Ruby Core.
+
+[`file::expand_path`]:
+  https://ruby-doc.org/core-3.1.2/File.html#method-c-expand_path
 
 If Artichoke does not run Ruby source code in the same way that MRI does, it is
 a bug and we would appreciate if you [filed an issue so we can fix it]. [File
@@ -200,8 +205,6 @@ Regular dependency bumps are handled by [@dependabot].
 
 [artichoke]: https://github.com/artichoke
 [there is lots to do]: https://github.com/artichoke/artichoke/issues
-[`digest` package]:
-  https://ruby-doc.org/stdlib-2.6.3/libdoc/digest/rdoc/Digest.html#method-c-bubblebabble
 [filed an issue so we can fix it]:
   https://github.com/artichoke/artichoke/issues/new
 [file bugs specific to ruby-file-expand-path in this repository]:
