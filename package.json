@@ -1,0 +1,23 @@
+{
+  "name": "@artichokeruby/ruby-file-expand-path",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Rust port of path normalization from MRI Ruby.",
+  "keywords": [
+    "ruby",
+    "rust",
+    "windows",
+    "filesystem",
+    "ffi"
+  ],
+  "repository": "github:artichoke/ruby-file-expand-path",
+  "author": "Ryan Lopopolo <rjl@hyperbo.la> (https://hyperbo.la/)",
+  "homepage": "https://www.artichokeruby.org",
+  "bugs": "https://github.com/artichoke/ruby-file-expand-path/issues",
+  "devDependencies": {
+    "prettier": "3.2.5"
+  },
+  "scripts": {
+    "fmt": "prettier --write \"**/*\""
+  }
+}
