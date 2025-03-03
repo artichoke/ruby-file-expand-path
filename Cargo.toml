@@ -19,14 +19,5 @@ include = ["src/**/*", "tests/**/*", "LICENSE", "README.md"]
 # `no_std` mode was fixed in https://github.com/BurntSushi/bstr/commit/83e8f27e
 bstr = { version = "1.0.1", default-features = false }
 
-[dev-dependencies]
-
-# Check that crate versions are properly updated in documentation and code when
-# bumping the version.
-[dev-dependencies.version-sync]
-version = "0.9.3"
-default-features = false
-features = ["markdown_deps_updated", "html_root_url_updated"]
-
 [package.metadata.docs.rs]
 rustdoc-args = ["--cfg", "docsrs"]
