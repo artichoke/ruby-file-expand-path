@@ -1,7 +1,6 @@
 # ruby-file-expand-path
 
 [![GitHub Actions](https://github.com/artichoke/ruby-file-expand-path/workflows/CI/badge.svg)](https://github.com/artichoke/ruby-file-expand-path/actions)
-[![Discord](https://img.shields.io/discord/607683947496734760)](https://discord.gg/QCe2tp2)
 [![Twitter](https://img.shields.io/twitter/follow/artichokeruby?label=Follow&style=social)](https://twitter.com/artichokeruby)
 <br>
 [![Crate](https://img.shields.io/crates/v/ruby-file-expand-path.svg)](https://crates.io/crates/ruby-file-expand-path)
